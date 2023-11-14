@@ -110,3 +110,26 @@ ul li span {
 ul li span:hover {
 	background: #edeef0;
 }
+
+@media only screen and (max-width: 425px) {
+	button {
+		padding: 16px 25px;
+		font-size: 12px;
+	}
+	ul li {
+		font-size: 14px;
+	}
+	ul li span {
+		font-size: 19px;
+	}
+	#input-box {
+		width: 100%;
+		font-size: 12px;
+	}
+	.todo-app h2 {
+		font-size: 20px;
+	}
+	.todo-app img {
+		width: 25px;
+	}
+}
